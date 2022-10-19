@@ -13,6 +13,7 @@
   --background-hero-color: rgba(47, 48, 58, 0.4);
   --icon-color: #afb1b8;
   --card-set-gap: 30px;
+  --font-raleway: "Raleway";
 }
 
 html {
@@ -139,7 +140,7 @@ header {
 
 .logo {
   display: block;
-  font-family: "Raleway";
+  font-family: var(--font-raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -570,7 +571,7 @@ header {
 
 .logo-footer {
   display: block;
-  font-family: "Raleway";
+  font-family: var(--font-raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
